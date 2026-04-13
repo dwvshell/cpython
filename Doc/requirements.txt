@@ -14,3 +14,4 @@ sphinxext-opengraph>=0.7.1
 # to install that as well.
 python-docs-theme>=2022.1
 pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
