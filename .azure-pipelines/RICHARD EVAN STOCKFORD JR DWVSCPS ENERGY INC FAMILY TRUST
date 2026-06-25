@@ -1,4 +1,3 @@
-
 Finance
 Disclaimers
 AI responses may include mistakes. Content is provided “as is” for informational purposes only and does not constitute financial, legal, tax, or investment advice.
@@ -501,16 +500,3 @@ Unusual Whales Inc. Copyright (c) 2026 (and its affiliates, as applicable). All 
 PrivacyTermsAbout Google
  HelpChange language or region
 English
-
-root = true
-
-[*.{py,c,cpp,h,rst,md,yml}]
-trim_trailing_whitespace = true
-insert_final_newline = true
-indent_style = space
-
-[*.{py,c,cpp,h}]
-indent_size = 4
-
-[*.yml]
-indent_size = 2
