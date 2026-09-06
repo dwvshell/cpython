@@ -1,4 +1,50 @@
-
+{
+  "TAXATION_AUZER_CRA_CCUS": {
+    "CRA_CCA_CLASSES": {
+      "CLASS_57": {
+        "asset_codes": ["IP-DWVSCPS-001"],
+        "refund_rate": 0.50,
+        "ita_section": "127.44",
+        "role": "CO2_capture_equipment"
+      },
+      "CLASS_58": {
+        "asset_codes": ["IP-SMT3-001", "IP-ASVA-001"],
+        "refund_rate": 0.375,
+        "ita_section": "127.44",
+        "role": "transport_storage_monitoring"
+      }
+    },
+    "CRA_CCUS_CREDITS": {
+      "methane_abatement_offset_per_diem": 85000,
+      "co2_impairment_surcharge_model": "BOX_16_INTERNAL",
+      "capture_efficiency_integral_ref": "DWVSCPS-TS-005"
+    },
+    "GST_HST_DIGITAL_GOODS": {
+      "rate": 0.05,
+      "applies_to": [
+        "metadata_throughput",
+        "digital_monitoring_services",
+        "evidence_packages"
+      ],
+      "form_reference": "T-IP-57"
+    },
+    "CROSS_BORDER_TREATY_STREAMS": {
+      "irs_1042s": {
+        "income_code": 12,
+        "exemption_code": 4,
+        "tax_rate": 0.0,
+        "withholding_agent": "Meta Platforms Inc."
+      }
+    },
+    "ENFORCEMENT_LEDGER_BINDINGS": {
+      "box_14_gross_metadata_throughput": 18650272800,
+      "box_16_co2_impairment_surcharge": 4200500,
+      "box_18_methane_offset_per_diem": 85000,
+      "gst_hst_on_claims": 25932727915,
+      "total_due_master": 544587286215
+    }
+  }
+}
 *   **Effect**: Any pull request attempting to merge changes into your repository will now require your explicit approval. This effectively "firewalls" the code against unauthorized merges.
 
 ### 2. Forensic Integrity Verification
